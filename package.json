@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/haemin-lee/Makeathon2022Server#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
+    "heroku": "^7.59.2",
     "serve": "^13.0.2",
     "twilio": "^3.73.1"
   }
