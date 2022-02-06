@@ -4,7 +4,7 @@ require('dotenv').config({ debug: true });
 
 let port = process.env.PORT || 3001;
 
-const hostname = '127.0.0.1';
+const hostname = '0.0.0.0';
 //const twilio = require('twilio');
 
 const accountSid =  process.env.accountSID;
