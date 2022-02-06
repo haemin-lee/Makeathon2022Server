@@ -1,9 +1,10 @@
 const http = require('http');
 
 require('dotenv').config({ debug: true });
-const hostname = '127.0.0.1';
-const port = process.env.PORT;
 
+let port = process.env.PORT || 3001;
+
+const hostname = '127.0.0.1';
 //const twilio = require('twilio');
 
 const accountSid =  process.env.accountSID;
@@ -27,6 +28,6 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${process.env.PORT}/`);
+  console.log(`Server running at http://${hostname}:${port}/`);
 });
 
