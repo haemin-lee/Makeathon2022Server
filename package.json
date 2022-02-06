@@ -1,0 +1,20 @@
+{
+  "name": "makeathon2022server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haemin-lee/Makeathon2022Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haemin-lee/Makeathon2022Server/issues"
+  },
+  "homepage": "https://github.com/haemin-lee/Makeathon2022Server#readme"
+}
