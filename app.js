@@ -3,11 +3,11 @@ const http = require('http');
 const hostname = '127.0.0.1';
 const port = process.env.PORT || 3001;
 
-const twilio = require('twilio');
+//const twilio = require('twilio');
 
 const accountSid =  process.env.accountSID;
 const authToken =  process.env.authToken;
-const client = require('twilio')(accountSid, authToken);
+//const client = require('twilio')(accountSid, authToken);
 
 
 const server = http.createServer((req, res) => {
